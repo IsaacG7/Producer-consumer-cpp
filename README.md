@@ -1,6 +1,6 @@
 # Producer / Consumer Simulation
 
-A multithreaded C++ simulation of the classic producer-consumer problem, written for an Operating Systems course. Producer threads generate random numbers and insert them into a shared circular buffer, while consumer threads remove and analyze them — flagging any prime numbers detected. Thread synchronization is handled using POSIX mutexes and semaphores.
+A multithreaded C++ simulation of the classic producer-consumer problem, written for my Operating Systems course. Producer threads generate random numbers and insert them into a shared circular buffer, while consumer threads remove and analyze them — flagging any prime numbers detected. Thread synchronization is handled using POSIX mutexes and semaphores.
 
 ---
 
